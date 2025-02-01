@@ -16,6 +16,7 @@
     "deploy:dev": "pm2 start ecosystem.config.js --only dev"
   },
   "dependencies": {
+    "@types/mongoose": "^5.11.97",
     "bcrypt": "^5.0.1",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
@@ -29,7 +30,7 @@
     "hpp": "^0.2.3",
     "http-status-codes": "^2.3.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^8.9.4",
+    "mongoose": "^8.9.6",
     "morgan": "^1.10.0",
     "reflect-metadata": "^0.1.13",
     "swagger-jsdoc": "^6.2.1",
